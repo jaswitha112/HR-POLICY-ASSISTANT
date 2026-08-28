@@ -28,3 +28,4 @@ ipykernel
 
 streamlit
 streamlit>=1.35.0
+faiss-cpu
