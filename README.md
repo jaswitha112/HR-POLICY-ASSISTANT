@@ -197,7 +197,7 @@ This project is licensed under the MIT License. See [LICENSE](LICENSE) for detai
 
 Contributions are welcome. If you want to improve the assistant, add new features, or make the retrieval pipeline more robust, feel free to open a pull request with a clear description of the change.
 
-##🙏 Acknowledgements
+## 🙏 Acknowledgements
 
 - LangChain for orchestration and agent tooling
 - Groq for LLM inference
