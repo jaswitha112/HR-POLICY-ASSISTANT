@@ -1,8 +1,8 @@
-# HR Policy Assistant
+# 🤖 HR Policy Assistant
 
 A lightweight Retrieval-Augmented Generation (RAG) application for answering employee questions from an internal HR policy document. The project combines a local policy corpus, embeddings, semantic retrieval, and an LLM-powered agent to provide grounded answers instead of relying on memory alone.
 
-## Why this project?
+## 🎯 Why this project?
 
 Organizations often store policies in long documents such as employee handbooks, onboarding guides, and internal policy PDFs. Searching these documents manually is time-consuming and error-prone. This project demonstrates how to build a simple but effective HR assistant that:
 
@@ -11,8 +11,8 @@ Organizations often store policies in long documents such as employee handbooks,
 - retrieves the most relevant policy passages
 - uses a language model to answer based only on retrieved evidence
 - exposes the assistant through a CLI or a Streamlit web app
-
-## Features
+  
+## ✨ Features
 
 - HR policy Q&A using RAG
 - FAISS vector search for fast retrieval
@@ -23,7 +23,7 @@ Organizations often store policies in long documents such as employee handbooks,
 - Persistent FAISS index to avoid reindexing on every run
 - Easy setup using environment variables and a Python virtual environment
 
-## Tech Stack
+## 🛠️ Tech Stack
 
 - Python 3.11
 - LangChain and LangChain Community
@@ -33,8 +33,8 @@ Organizations often store policies in long documents such as employee handbooks,
 - Streamlit for the web interface
 - Python-dotenv for environment configuration
 - FAISS local index stored in the project data directory
-
-## Architecture
+  
+## 🏗️ Architecture
 
 The project follows a standard RAG pattern:
 
@@ -79,7 +79,7 @@ LangChain agent + LLM
 Answer to the user
 ```
 
-## Project Structure
+## 📁 Project Structure
 
 ```text
 HR-POLICY-RAG-ASSISTANT/
@@ -105,23 +105,23 @@ HR-POLICY-RAG-ASSISTANT/
 └── ragenv/                    # Local virtual environment
 ```
 
-## Getting Started
+## 🚀 Getting Started
 
-### Prerequisites
+### 📋 Prerequisites
 
 - Python 3.11+
 - A Groq API key
 - A Jina API key
 - Git
 
-### 1. Clone the repository
+### 1️⃣ Clone the repository
 
 ```bash
 git clone https://github.com/your-username/HR-POLICY-RAG-ASSISTANT.git
 cd HR-POLICY-RAG-ASSISTANT
 ```
 
-### 2. Create a virtual environment
+### 2️⃣ Create a virtual environment
 
 ```bash
 python -m venv venv
@@ -139,13 +139,13 @@ On macOS/Linux:
 source venv/bin/activate
 ```
 
-### 3. Install dependencies
+### 3️⃣ Install dependencies
 
 ```bash
 pip install -r requirements.txt
 ```
 
-### 4. Configure environment variables
+### 4️⃣ Configure environment variables
 
 Create a `.env` file in the project root with the following values:
 
@@ -156,9 +156,9 @@ JINA_API_KEY=your_jina_api_key
 
 The app loads these automatically from the environment using `python-dotenv`.
 
-### 5. Run the project
+### 5️⃣ Run the project
 
-#### CLI demo
+#### 💻 CLI demo
 
 ```bash
 python main.py
@@ -166,7 +166,7 @@ python main.py
 
 This runs a few example HR questions and prints the assistant responses.
 
-#### Streamlit app
+####  🌐 Streamlit app
 
 ```bash
 streamlit run app.py
@@ -174,7 +174,7 @@ streamlit run app.py
 
 Then open the local URL shown in the terminal and ask policy-related questions in the browser.
 
-## Usage Example
+## 💡 Usage Example
 
 Example questions you can ask:
 
@@ -183,21 +183,21 @@ Example questions you can ask:
 - Can I work from home every day?
 - What are the employee reimbursement rules?
 
-## Notes
+## 📝 Notes
 
 - The first run may take longer because the vector store is being built from the policy file.
 - The generated FAISS index is stored in `data/faiss_index/` so future runs can load it quickly.
 - The assistant is designed to answer from retrieved policy evidence and avoid guessing when the information is not present.
 
-## License
+## 📜 License
 
 This project is licensed under the MIT License. See [LICENSE](LICENSE) for details.
 
-## Contributing
+## 🤝 Contributing
 
 Contributions are welcome. If you want to improve the assistant, add new features, or make the retrieval pipeline more robust, feel free to open a pull request with a clear description of the change.
 
-## Acknowledgements
+##🙏 Acknowledgements
 
 - LangChain for orchestration and agent tooling
 - Groq for LLM inference
