@@ -119,8 +119,8 @@ HR-POLICY-RAG-ASSISTANT/
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/your-username/HR-POLICY-RAG-ASSISTANT.git
-cd HR-POLICY-RAG-ASSISTANT
+git clone https://github.com/jaswitha112/HR-POLICY-ASSISTANT.git
+cd HR-POLICY-ASSISTANT
 ```
 
 ### 2️⃣ Create a virtual environment
