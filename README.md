@@ -1,6 +1,7 @@
 # 🤖 HR Policy Assistant
 
-🚀 **Live Demo:** [HR Policy Assistant] (https://hr-policy-assistant-vhau.onrender.com)
+🚀 **Live Demo:** [HR Policy Assistant](https://hr-policy-assistant-vhau.onrender.com)
+🌐 **Deployment Platform:** Render
 
 A lightweight Retrieval-Augmented Generation (RAG) application for answering employee questions from an internal HR policy document. The project combines a local policy corpus, embeddings, semantic retrieval, and an LLM-powered agent to provide grounded answers instead of relying on memory alone.
 
