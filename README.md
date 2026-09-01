@@ -95,18 +95,17 @@ HR-POLICY-ASSISTANT/
 ├── data/
 │   ├── hr_policy.txt          # Source HR policy content
 │   └── faiss_index/           # Saved FAISS index files
-├── hr_assistant/
-│   ├── __init__.py
-│   ├── agent.py               # LangChain agent setup
-│   ├── config.py              # App configuration and environment variables
-│   ├── document_loader.py     # Loads raw policy text
-│   ├── embeddings.py          # Jina embedding model wrapper
-│   ├── llm.py                 # LLM setup
-│   ├── pipeline.py            # Main orchestration for the assistant
-│   ├── splitter.py            # Chunking logic
-│   ├── tools.py               # Retrieval tool used by the agent
-│   └── vector_store.py        # FAISS build/save/load logic
-└── ragenv/                    # Local virtual environment
+└── hr_assistant/
+    ├── __init__.py
+    ├── agent.py               # LangChain agent setup
+    ├── config.py              # App configuration and environment variables
+    ├── document_loader.py     # Loads raw policy text
+    ├── embeddings.py          # Jina embedding model wrapper
+    ├── llm.py                 # LLM setup
+    ├── pipeline.py            # Main orchestration for the assistant
+    ├── splitter.py            # Chunking logic
+    ├── tools.py               # Retrieval tool used by the agent
+    └── vector_store.py        # FAISS build/save/load logic
 ```
 
 ## 🚀 Getting Started
